@@ -1,0 +1,26 @@
+
+#nombre{
+    
+    
+    font-size: 40px;
+    text-align: center;
+    font-weight:bold ;
+    
+}
+
+.cesar{
+color: blue;
+text-align: left;
+}
+
+p{
+    color: rgb(128, 94, 0);
+    text-align: center;
+}
+
+#fecha{
+
+background-color: teal;
+text-align: center;
+color: white;
+}
