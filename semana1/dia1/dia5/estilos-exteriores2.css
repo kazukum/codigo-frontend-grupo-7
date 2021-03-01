@@ -1,0 +1,13 @@
+img:hover {
+ text-align: right;
+height: 480px;
+
+}
+
+img{
+    border-radius: 50px;
+    height: 250px;
+}
+#centrame:hover{
+    text-align: start;
+}
