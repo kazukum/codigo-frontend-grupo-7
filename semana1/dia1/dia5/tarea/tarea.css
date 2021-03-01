@@ -1,6 +1,7 @@
-img{
-
-border-radius: 100px;
+#foto{
+    width:300px;
+    height:300px;
+    border-radius:150px
 }
 
 
@@ -13,8 +14,13 @@ border-radius: 100px;
 
 .centrar{
    text-align: center;
+ 
 }
 
 #color{
     color: white;
+}
+
+#imagen{
+    border-radius: 40px;
 }
