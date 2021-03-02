@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+#color{
+    color:#89a5b1 ;
+}
+
+#letra{
+    font-family: 'Stick', sans-serif;
+}
+
+#a{
+    font-family: monospace;  
+}
+
+#b{
+    font-family: cursive;
+}
+
+#c{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#d{
+    font-family: unset;
+}
+
+#cesar{
+    font-family: cursive;
+    font-weight: bold;
+}
+#ignacio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#rodriguez{
+    font-family: unset;
+    font-weight: bold;
+}
+.obra{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+body{
+    background-color:#617f8b ;
+}
