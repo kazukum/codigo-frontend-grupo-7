@@ -1,0 +1,26 @@
+body{
+    
+    background-image: url("https://pbs.twimg.com/media/Esru2SuWMAM_TD6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+
+}
+
+#centrar{
+    height: 220px;
+    width: 300px;
+    margin: 2rem auto;
+    text-align: center;
+    
+}
+
+footer{
+    background-image: url("https://i.ytimg.com/vi/s4PkWQoat9M/maxresdefault.jpg");
+    height: 350px;
+    width: 100;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

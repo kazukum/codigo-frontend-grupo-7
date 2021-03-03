@@ -1,0 +1,37 @@
+body{
+
+    background-color: lightblue;
+    
+    
+    
+}
+
+#primer-parrafo{
+background-color: red;
+max-width: 50%;
+}
+
+#segundo-parrafo{
+ background-color: green;
+ opacity: 0.5;
+}
+
+#tercer-parrafo{
+background-color: blue;
+opacity: 0.2;
+}
+
+#cuarto-parrafo{
+    background-color: rgba(248, 242, 158, 0.479);
+}
+
+#contenedor{
+    height: 400px;
+    width: 350px;
+
+    background-image: url("https://carrerasuniversitarias.pe/logos/original/logo-instituto-senati.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+
+}
