@@ -1,0 +1,74 @@
+
+
+#gradiente-linear-desde-arriba-hacia-abajo{
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+    background-image: linear-gradient(red,blue);
+
+}
+
+#gradiente-linear-desde-abajo-hacia-arriba{
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+    background-image: linear-gradient(360deg, red,blue);
+
+}
+
+#gradiente-linear-derecha-hacia-izquierda{
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+    background-image: linear-gradient(to left, red,blue);
+
+}
+
+#gradiente-linear-izquierda-hacia-derecha{
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+    background-image: linear-gradient(to right, red,blue);
+
+}
+
+#gradiente-linear-diagonal-izquierda-derecha{
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+    background-image: linear-gradient(to bottom right, red,blue);
+}
+
+#gradiente-linear-diagonal-derecha-izquierda{
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+    background-image: linear-gradient(to bottom left, red,blue);
+}
+
+#gradiente-lineal-transparencia{
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+    background-image: linear-gradient(to right,rgb(221, 200, 143),rgb(255,0,0));
+}
+
+/* ejercicio en clase
+#gradiente-linear-desde-arriba-hacia-abajo{
+    background-image: linear-gradient(to bottom right, red,yellow,green,orange,black,blue,purple);
+    width: 250px;
+    height: 695px;
+   border-radius: 68%;
+  text-align: center;
+  color: white;
+
+}*/
+
+/*
+    .container{
+    height:200px;
+    left:50%
+    position absolute    
+    top 50%
+    width 300px
+}*/

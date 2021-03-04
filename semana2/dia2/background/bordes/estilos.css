@@ -1,0 +1,34 @@
+#texto-boder-puntitos{
+
+    border-style: dotted;
+}
+
+#texto-border-lineas{
+    border-style:dashed ;
+}
+
+#texto-border-solido{
+    border-style: solid;
+}
+
+#texto-border-doble{
+    border-style: double;
+}
+
+/*para borrar el borde*/
+input{
+    border:none;
+    background-color: teal;
+}
+
+h1{
+ border-style: outset;
+}
+
+#texto-border-insert{
+ border-style: inset;
+}
+
+#texto-multiborder{
+   border-style: dotted dashed solid double;
+}

@@ -1,0 +1,19 @@
+#titulo{
+    border-style: double dashed dashed double ;
+}
+
+#insert{
+    border-style: inset;
+}
+
+#double{
+    border-style: double;
+}
+
+#solido{
+    border-style: solid;
+}
+
+#punt{
+    border-style: dotted dotted double double;
+}
