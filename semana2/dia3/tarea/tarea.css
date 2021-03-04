@@ -1,0 +1,115 @@
+#prueba{
+    width: 500px;
+    height: 800px;
+    border-radius: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    animation: goku 28s infinite;
+
+}
+
+#sheylon{
+    width: 500px;
+    height: 800px;
+}
+
+#filtro{
+    width: 500px;
+    height: 800px;
+    filter: grayscale(100%);
+}
+
+
+body{
+
+    background-image: linear-gradient(red,yellow);
+}
+
+#esferas1{
+    max-width: 500px;
+    max-height: 700px;
+    background-size: cover;
+    transform: rotate(40deg);
+}
+#esferas2{
+    max-width: 500px;
+    max-height: 700px;
+    background-size: cover;
+    transform: rotate(320deg);
+    filter: grayscale(100%);
+}
+
+
+
+@keyframes goku{ 
+  0% {
+    background-image: url("https://i.pinimg.com/originals/da/ae/61/daae613505fb0de2ae20b24fffc3cb6a.png")
+    
+  }
+
+  5%{
+      background-image: url("goku1.png");
+      
+  
+    }
+ 10%{
+   background-image: url("goku2.png");
+   }
+
+
+ 15%{
+  background-image: url("goku3.png");
+ }
+
+ 20%{
+    background-image: url("goku4.png");
+   }
+
+   25%{
+    background-image: url("goku5.png");
+   }
+   30%{
+    background-image: url("goku6.png");
+   }
+   35%{
+    background-image: url("goku7.png");
+   }
+   40%{
+    background-image: url("goku8.png");
+   }
+   45%{
+    background-image: url("goku9.png");
+   }
+   50%{
+    background-image: url("goku10.png");
+   }
+   55%{
+    background-image: url("goku11.png");
+   }
+   60%{
+    background-image: url("goku12.png");
+   }
+   65%{
+    background-image: url("goku13.png");
+   }
+   70%{
+    background-image: url("goku14.png");
+   }
+   75%{
+    background-image: url("goku15.png");
+   }
+   80%{
+    background-image: url("goku16.png");
+   }
+   100%{
+    background-image: url("goku17.png");
+   }
+
+
+
+
+}
+
+
+
