@@ -1,0 +1,49 @@
+
+
+#girar{
+
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+    transform: rotate(40deg);
+}
+
+#torcer{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+    transform: skewY(20deg);
+}
+
+#estirar{
+    height: 250px;
+    width: 250px;
+    background-color:yellow;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    transform: scaleY(1.9)
+}
+
+/* practica
+#goku1{
+    height: 250px;
+    width: 250px;
+    transform: rotate(180deg);
+}
+
+#goku2{
+
+    height: 250px;
+    width: 250px;
+    transform: skewY(45deg);
+}
+*/
