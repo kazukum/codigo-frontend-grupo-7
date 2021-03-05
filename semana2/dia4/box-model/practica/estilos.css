@@ -1,0 +1,34 @@
+
+
+body{
+    text-align: center;
+}
+#caja{
+    width: 1000px;
+    height: 1000px;
+    background-color: coral;
+    
+}
+
+#titulo{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    border: 10px solid green;
+    margin-bottom: 30px;
+
+}
+
+#poema{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 1px blue;
+}
+
+#nacimiento{
+    background-color: burlywood;
+}
