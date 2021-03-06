@@ -1,0 +1,24 @@
+
+
+
+#center{
+    text-align: center;
+    width: 700px;
+    height: 800x;
+    border: solid 2px green;
+    padding: 50px;
+}
+h1{
+   text-align: center;
+    width: 600px;
+    height: 100px;
+    margin-left:  40px;
+    padding-top: 40px;
+   
+    background-color: rgb(151, 163, 163);
+    color: white;
+}
+
+img{
+    filter: grayscale(100%);
+}
