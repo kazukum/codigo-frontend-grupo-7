@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://areajugones.sport.es/wp-content/uploads/2021/02/db-super-shenron.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+    border:#016d9b 3px outset;
+    margin-top: 100px;
+    margin-left: 550px;
+    margin-right: 550px;
+    background-color: #016d9b;
+}
+
+#vegeto{
+    width: 500px;
+}
+#gogeta{
+    width: 350px;
+}
+#ss4{
+    width: 400px;
+}
+
+table{
+    text-align: center;
+    color: white;
+}
+
+th{
+    background-color:#016d9b ;
+    padding: 10px;
+    border-radius: 20px;
+}

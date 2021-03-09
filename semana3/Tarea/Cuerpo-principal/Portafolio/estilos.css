@@ -1,0 +1,23 @@
+body{
+
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/321/53/291/dragon-ball-dragon-ball-super-vegito-dragon-ball-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+    border:#016d9b 3px outset;
+    margin-top: 100px;
+    margin-left: 550px;
+    margin-right: 550px;
+    background-color: #016d9b;
+}
+
+img{
+    width: 500px;
+}

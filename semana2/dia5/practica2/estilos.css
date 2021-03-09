@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 100px;
+    padding: blue 20px;
+    border: brown 5px solid;
+}
+
+#fondo-color-formulario{
+    background-color: chocolate;
+}
+
+form label{
+    margin-right: 15px;
+    text-align: center;
+    display: inline-flexbox;
+    width: 150px;
+    border: brown 5px solid;
+    
+   
+}
+
+form input{
+   
+  
+    
+}
