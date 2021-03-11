@@ -1,39 +1,82 @@
+*{
+    margin: 0;
+}
+
+#logo{
+    margin: 10px;
+    height: 60px;
+    width: 65px;
+}
+
+a{
+    text-decoration: none;
+    color:#0e4aca ;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 5px;
+  
+    
+
+}
+
+header{
+   
+   
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content:space-between ;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgb(117, 186, 231) 35%);
+}
+
+
 body{
+    text-align: center;
     background-image: url("https://fondosmil.com/fondo/33112.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 
+
+
 h1{
-    text-align: center;
+    
     color: white;
     border:#016d9b 3px outset;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 550px;
     margin-right: 550px;
     background-color: #016d9b;
+    
 }
 
 #relleno{
-   margin-top: 50px;
-    margin-left: 450px;
-    margin-right: 450px;
-    margin-bottom: 600px;
+   margin: 100px;
     width: 650px;
     height: 70px;
     border:rgb(170, 190, 124) 5px outset;
     padding-top: 40px;
     background-color: #016d9b;
     border-radius: 30px;
+   
+
 }
 
 a{
+    
     
     color: rgb(170, 190, 124);
     text-decoration: none;
     font-size: 22px;
     font-weight: bolder;
-    padding-left: 60px;
+    
    
     
 
@@ -46,6 +89,6 @@ a{
    background-color:#016d9b ;
    padding: 20px;
     color: white;
-    overflow-y: auto;
+    
     border:rgb(170, 190, 124) 5px outset;
 }

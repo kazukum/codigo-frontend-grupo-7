@@ -81,9 +81,11 @@ a{
 }
 
 #botones{
+   
+    flex-direction: row;
     position: relative;
     top: 180px ;
-   
+     padding: 5px;
 }
 
 .boton{
@@ -98,3 +100,114 @@ a{
     font-family: 'Akaya Kanadaka', cursive;
     cursor: pointer;
 }
+
+/*---------------------------------------------------*/
+footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #016d9b;
+    margin-top: -5px;
+    
+  }
+
+  .sub-footer {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #sub-footer-3 {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .texto-footer {
+    font-size: medium;
+    color: white;
+  }
+  .red-social {
+    fill: white !important;
+    width: 30px;
+    margin: 10px;
+  }
+
+  svg{
+     
+      background-attachment: fixed;
+      margin-top: 600px;
+}
+
+@media only screen and (max-width: 600px){
+    header{
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgb(211, 125, 54) 35%);
+    }
+    #perfil{
+        width: 100px;
+        height: 100px;
+      }
+    #botones{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        padding-bottom: 10px;
+    }
+    a{
+        font-size: small;
+    }
+    }
+
+    @media only screen and (min-width: 600px) {
+        body {
+          background-image: url("https://images.pexels.com/photos/5087476/pexels-photo-5087476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        }
+       a{
+           margin-left: 55px;
+           font-size: 20px;
+           color: brown;
+       }
+       #perfil{
+           border-radius: 20px;
+       }
+       #botones{
+           display: flex;
+           flex-direction: column;
+          margin: 100px;
+          
+       }
+       .boton{
+          color: yellow;
+          margin: 5px;
+       }
+      
+         .red-social{
+        width: 60px;;
+       }
+
+        .texto-footer{
+              font-size: 25px;
+             
+           }
+       
+    }
+
+    @media only screen and (min-width:992px){
+        footer{
+            background-color: brown;
+        }
+        
+    }
+
+    @media only screen and (min-width:1200px){
+        #perfil{
+            display: none;
+        }
+    }
+    

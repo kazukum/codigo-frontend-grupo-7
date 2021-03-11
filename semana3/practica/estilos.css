@@ -1,0 +1,39 @@
+body{
+ background-color:  yellow;
+
+
+}
+
+header{
+    background-color: plum;
+}
+
+footer{
+    background-color: blue;
+}
+/*
+@media only screen and (max-width :600px){
+    header{
+ background-color: orangered;
+ }
+}
+ */
+@media only screen and (min-width: 600px){
+    body{
+        background-image: url("https://static.wikia.nocookie.net/heroe/images/c/c0/Mario_NSMBUD.png/revision/latest?cb=20190714001631&path-prefix=es");
+    }
+}
+/*
+@media only screen and (min-width:992px){
+
+    footer{
+        background-color: orange;
+    }
+}
+
+@media only screen and (min-width:1200px){
+ img{
+     display: none
+ };
+}
+*/
