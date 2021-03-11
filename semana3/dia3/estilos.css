@@ -1,0 +1,80 @@
+#contenedor-horizontal{
+    display: flex;
+    flex-direction: row;
+    background-color: teal;
+}
+
+#contenedor-vertical{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+}
+
+#contenedor-horizontal-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: pink;
+
+}
+
+#contenedor-horizontal-inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: blue;
+}
+
+#contenedor-horizontal-centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: orange;
+}
+
+#contenedor-horizontal-final{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    background-color: peru;
+}
+
+#contenedor-horizontal-expansor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* ocupa el espacio solido miestras q encojes se bajan las cajas*/
+    background-color: rebeccapurple;
+}
+
+#elemento1{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    flex-grow: 1;  /* engruesa las cajas*/
+    background-color: tomato;
+}
+
+#elemento2{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    flex-grow: 2;
+    background-color: tomato;
+}
+
+#elemento3{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    flex-grow: 1;
+    background-color: tomato;
+}
+
+
+.elemento{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: tomato;
+}
+

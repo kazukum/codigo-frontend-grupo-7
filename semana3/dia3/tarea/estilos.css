@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+}
+
+header{
+   
+   
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgb(117, 186, 231) 35%);
+}
+
+
+nav{
+    margin-top: 25px;
+   margin-right: 70px;
+   display: flex;
+    justify-content:flex-end ;
+   
+}
+
+.letras{
+    
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    font-size: 15px;
+    font-weight: bolder;
+    
+    padding: 6px;
+}
+
+#app{
+ width: 25px;
+}
+
+#gmail{
+    width: 26px;
+   
+    fill: brown;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+    
+}
+#lupa{
+    padding-top: 8px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#voz{
+    padding-top: 3px;
+    width: 50px;
+    height: 35px;
+    margin-right: 10px;
+   
+   
+}
+input{
+   outline: none;
+   
+
+   border-radius: 5px;
+   border: 1px solid rgb(206, 205, 205);
+}
+
+img{
+     width: 400px;
+}
+
+#imagen{
+  
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ margin-top: 120px;
+}
+
+.botones{
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.boton{
+    margin: 10px;
+    padding: 10px;
+    width:200px; 
+    height:40px;
+    font-size: 15px;
+   
+   cursor:progress;
+    border: none;
+   
+
+}
+
+#inferior{
+   
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+#letras-inferiores{
+    margin-top: 30px;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#barra{   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+
+}
+
+.peru2{
+ flex-grow: 2;
+
+ background-color: rgb(230, 229, 229) ;
+ margin-top: -19px;
+ margin-bottom: -25px;
+ padding: 15px;
+ color: rgb(82, 81, 81);
+}
+
+.peru3{
+  flex-grow: 1;
+  
+  margin-bottom: -25px;
+  margin-top: -19px;
+  padding: 15px;
+  
+  background-color: rgb(230, 229, 229) ;
+  color: rgb(82, 81, 81);
+}
+#peru{
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    color: rgb(82, 81, 81);
+    margin-top: 70px;
+    padding: 12px;
+    background-color: rgb(230, 229, 229) ;
+}
