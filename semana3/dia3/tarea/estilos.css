@@ -51,29 +51,43 @@ form{
     flex-direction: row;
     justify-content: center;
     margin-top: 90px;
+   
     
 }
 #lupa{
-    padding-top: 8px;
+    border-radius: 5px;
     width: 20px;
     height: 20px;
-    margin-right: 10px;
+    padding-left: 10px;
+    margin-right: -3px !important;
+    padding-top:12px ;
+    padding-bottom: 7px;
+    display: flex;
+    border: 1px solid rgb(206, 205, 205);
+   border-right: none;
+  
 }
+
+
+
 
 #voz{
     padding-top: 3px;
     width: 50px;
     height: 35px;
-    margin-right: 10px;
-   
-   
+  
+    display: flex;
+    border: 1px solid rgb(206, 205, 205) ;
+    margin-left: -3px !important;
+    border-left: none;
+    border-radius: 5px;
 }
 input{
    outline: none;
-   
-
-   border-radius: 5px;
-   border: 1px solid rgb(206, 205, 205);
+   border-left: none;
+   border-right: none;
+   border-color:rgb(206, 205, 205) ;
+  
 }
 
 img{
@@ -161,3 +175,18 @@ img{
     padding: 12px;
     background-color: rgb(230, 229, 229) ;
 }
+
+#buscar{
+  border: none;
+}
+
+
+/*cuando pasas el mouse desaparece
+input:hover{
+ border: none;
+}*/
+
+/*cuando estoy en un elemento
+input:focus{
+    outline: none;
+}*/
