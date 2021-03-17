@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Redressed&family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Redressed&family=Roboto:ital,wght@1,900&display=swap');
+
+*{
+margin: 0;
+}
+
+body{
+    text-align: center;
+    background-image: url("https://i0.wp.com/k39.kn3.net/taringa/3/8/2/6/1/6/0/chesterlp90/602.jpg?3630?resize=91,91");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Redressed', cursive;
+
+    
+}
+
+#contorno{
+    padding: 170px;
+    margin-top: 90px;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border-radius: 50%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Etiquette_cd-rom_01.svg/768px-Etiquette_cd-rom_01.svg.png");
+    background-size: contain;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+p{
+    font-weight: bold;
+    color: #016d9b ;
+    font-size: 20px;
+}
+
+label{
+
+    font-weight: bold;
+    font-size: 40px ;
+    color: brown;
+}
+
+h1{
+    color: white;
+    background-color: rgb(134, 132, 132);
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
