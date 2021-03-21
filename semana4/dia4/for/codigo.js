@@ -1,6 +1,7 @@
 
 // FOR = para
 
+
 for(let pasos = 0; pasos < 5;pasos++){
     console.log("camina de frente")
 }
@@ -68,3 +69,92 @@ console.log(suma)
 
 
 
+
+
+
+//..............................................................
+
+//aplicando html
+
+
+let alumnos_favoritos = ["Cristiano", "Messi", "Maradona", "Pele", "Iniesta"]
+let informacion = "Mis alumnos favoritos son : "
+
+const texto = document.querySelector("p")
+
+for (let indice = 0 ; indice < alumnos_favoritos.length; indice++){
+
+    informacion = informacion + alumnos_favoritos[indice] 
+}
+console.log(informacion)
+
+texto.textContent = informacion;
+
+
+
+
+
+let vocales =["a","e","i","o"]
+let frase = "mis vocales : "
+
+const mifrase = document.querySelector("p")
+
+for (let i = 0 ; i < vocales.length ; i++){
+
+    frase = frase + vocales[i] +","
+
+}
+console.log(frase)
+
+mifrase.textContent = frase
+
+
+
+
+// practica 
+
+let vocales =["a","e","i","o"]
+let frase = "mis vocales : "
+
+const mifrase = document.querySelector("p")
+
+for (let i = 0 ; i < vocales.length ; i++){
+
+    frase = frase + vocales[i] +","
+    
+      setTimeout(function(){ 
+        
+        if(vocales[i] === "a" ){
+            mifrase.textContent = i
+           console.log(i)
+        }
+      }, 2000);
+      setTimeout(function(){ 
+        
+        if(vocales[i] === "e" ){
+            mifrase.textContent = i
+           console.log(i)
+        }
+      }, 3000);
+      setTimeout(function(){ 
+        
+        if(vocales[i] === "i" ){
+            mifrase.textContent = i
+           console.log(i)
+        }
+      }, 4000);
+      setTimeout(function(){ 
+        
+        if(vocales[i] === "o" ){
+           mifrase.textContent = i
+           console.log(i)
+        }
+
+      }, 5000);
+
+     
+}
+
+
+ 
+  
