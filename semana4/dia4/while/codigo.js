@@ -20,6 +20,7 @@ while (contador <10){
 //  practica
 
 
+
 let suma = 0;
 let numero = 0;
 while (numero < 1000){
