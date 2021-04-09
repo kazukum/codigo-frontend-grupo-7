@@ -60,8 +60,20 @@ document.querySelector("#usuarios").appendChild(miusuario)
   //-..............................................................................
 
   //foreach lo corre todo
-  
+
 let otroArray = [100,200,300]
 
 
 otroArray.forEach((numero)=> console.log(numero * 3))
+
+
+//..........
+
+let sumaElementos = [10,20,30];
+
+let resultado = sumaElementos.reduce((acumulador,numero)=>{
+   return acumulador + numero;
+
+})
+
+console.log("Resultado del reduce: ", resultado)
