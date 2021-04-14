@@ -11,9 +11,14 @@ nav{
 }
 
 #logo{
-    width: 100px;
+    width: 150px;
     
 }
+
+.titulo1{
+    font-size: 150px;
+}
+
 
 
 
@@ -41,6 +46,7 @@ main{
     /* opacity: 50%; */
     
 }
+
 
 footer{
     display: flex;

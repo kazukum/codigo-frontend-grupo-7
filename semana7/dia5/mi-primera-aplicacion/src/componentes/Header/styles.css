@@ -1,0 +1,21 @@
+
+
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+   
+   background-image: linear-gradient(#0063b1,white);
+    
+
+}
+
+a{
+  text-decoration: none; 
+   padding: 7px;
+   
+}
+
+.links{
+  margin-top: 25px ;
+ 
+}
